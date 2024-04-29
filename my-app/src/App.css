@@ -1,0 +1,106 @@
+body {
+  background-color: #343541;
+}
+
+.header {
+  background-color: #2d2e3a;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.mb-3 {
+  background-color: #2d2e3a;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+  margin: 0 !important;
+}
+
+.form-control {
+  background-color: #343541;
+  border: 2px solid #616770;
+  border-radius: 15px;
+  color: #ffffff;
+  padding: 18px 16px;
+  width: 48%;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.form-control:focus {
+  outline: none !important;
+}
+
+.form-control::placeholder {
+  color: #939cad;
+}
+
+.chat {
+  width: 50%;
+  padding: 120px 0;
+  margin: 0 auto;
+}
+
+.message-box {
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+
+p {
+  color: #ffffff;
+}
+
+.username {
+  font-weight: bold;
+  margin-bottom: -15px;
+  font-size: 21px;
+}
+
+.chatbot-logo {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  float: left;
+}
+
+.msg {
+  font-size: 19px;
+}
+
+.url {
+  font-size: 17px;
+}
+
+a {
+  color: #7066ff;
+}
+
+/* adaptiert von Kirtesh Bansal: Create a Spinner Loader in React using CSS (2022)
+https://dev.to/kirteshbansal/spinner-loader-in-react-using-css-458h */
+.loading-spinner {
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  animation: spin 1s linear infinite;
+  margin-left: 40px;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
