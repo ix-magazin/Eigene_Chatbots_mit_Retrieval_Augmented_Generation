@@ -7,8 +7,9 @@
 2. Activation: `source .venv/bin/activate`
 3. Install requirements
 4. Manually create folders src/training-data & src/logs
-5. Create .env file with your OPENAI_API_KEY=<key> (check: https://platform.openai.com/docs/quickstart?context=python)
-6. Install frontend dependencies with `cd my-app` & `npm install`
+5. Add internal documents to training-data + change code to load them
+6. Create .env file with your OPENAI_API_KEY=<key> (check: https://platform.openai.com/docs/quickstart?context=python)
+7. Install frontend dependencies with `cd my-app` & `npm install`
 
 #### Indexing & Storing of data in vector database
 
