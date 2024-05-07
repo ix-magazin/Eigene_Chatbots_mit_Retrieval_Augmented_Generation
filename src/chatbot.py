@@ -8,7 +8,7 @@ MY_ENV_VAR = os.getenv('MY_ENV_VAR')
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 memory = Memory(memory_file="./memory.txt", 
                 chunking_strategy={'mode':'sliding_window', 'window_size': 80, 'overlap': 20}, 
-                embeddings="normal")
+                embeddings="BAAI/bge-m3")
 
 
 def askgpt(user_question, context):
