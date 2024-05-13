@@ -1,3 +1,10 @@
+# Eigene Chatbots mit Retrieval Augmented Generation
+Repository zum [Praxis-Artikel](https://www.heise.de/select/ix/2024/6/2407909441247961586) von Kai Konitzer und Ronny Frankenstein, erschienen in iX [06/2024](https://www.heise.de/select/ix/2024/6).
+
+# iX-Tract
+- Retrieval Augmented Generation (RAG) stellt großen Sprachmodellen zusätzliche Inhalte zur Verfügung, die beim Generieren von Text als Kontext einfließen.
+- Neben einer Dokumentensammlung benötigt man für den Einsatz von RAG noch eine Vektordatenbank, in der die Dokumente aufbereitet liegen.
+- Im produktiven Einsatz kommt man um das Optimieren von RAG-Parametern wie Segmentgröße oder Overlapping durch ausführliche Tests nicht herum.
 
 ### Current Chatbot using GPT-4, Flask, React.js and VectorDB
 
